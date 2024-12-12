@@ -2,7 +2,7 @@
 
 function Card(title, text) {
     return (
-        <div>
+        <div className="card">
             <img src="../public/fff.png" alt="600x400img" />
             <div>
                 <h3>Titolo del post</h3>
