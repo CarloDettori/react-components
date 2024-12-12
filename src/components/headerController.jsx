@@ -1,7 +1,12 @@
 "use strict"
 
 function Header() {
-    return <h1>Il mio blog</h1>
+    return (<>
+        <header id="header">
+            <h1>Il mio blog</h1>
+        </header>
+    </>
+    )
 }
 
 
